@@ -1,11 +1,25 @@
 body{
-    background-color: plum;
+    background-color: darkorchid;
+}
+.description{
+    text-align: center;
 }
 .main_heading {
     text-align: center;
     font-size: 2em;
 }
 #cart_container {
-    margin: auto;
-    width: 20%;   
+    background-image: url('https://marketplace.canva.com/MACDjS7-cs0/1/thumbnail_large/canva-shopping-cart-icon-MACDjS7-cs0.png');
+    position: absolute;  
+    top: 100px;
+    right: 50px;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    padding-bottom: 120px;
+    padding-left: 65px;
+    color:white;
+}
+
+#bookInfo {
+    margin-top:30px;
 }

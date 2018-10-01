@@ -17,13 +17,11 @@ const bookBuilder = ()=>{
         domString +=`</div>`;
     printToDom(domString, 'bookInfo');
 }
-bookBuilder();
 
 const addToCartButtonEvent = () => {
     addToCartButton.addEventListener('click', (e)=>{
         printToDom(getBookDetails(), 'cart_container');
     })
 }
-addToCartButtonEvent();
 
-export {book};
+export {book,bookBuilder,addToCartButtonEvent};
