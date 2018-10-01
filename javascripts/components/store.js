@@ -1,4 +1,5 @@
-import {printToDom} from "../helpers/util.js"
+import {printToDom} from "../helpers/util.js";
+import {getBookDetails} from "../components/cart.js";
 
 const addToCartButton = document.getElementById('cart_button');
 
@@ -20,7 +21,7 @@ bookBuilder();
 
 const addToCartButtonEvent = () => {
     addToCartButton.addEventListener('click', (e)=>{
-        
+        printToDom(getBookDetails(), 'cart_container');
     })
 }
 addToCartButtonEvent();
