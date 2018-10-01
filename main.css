@@ -1,6 +1,9 @@
 body{
     background-color: darkorchid;
 }
+.main_heading{
+    margin-top: 30px;
+}
 .description{
     text-align: center;
 }
@@ -11,7 +14,7 @@ body{
 #cart_container {
     background-image: url('https://marketplace.canva.com/MACDjS7-cs0/1/thumbnail_large/canva-shopping-cart-icon-MACDjS7-cs0.png');
     position: absolute;  
-    top: 100px;
+    top: 150px;
     right: 50px;
     background-size: contain; 
     background-repeat: no-repeat; 
@@ -21,5 +24,9 @@ body{
 }
 
 #bookInfo {
-    margin-top:30px;
+    margin-top:50px;
+    margin-left: 20px;
+}
+#cart_button{
+    margin-left: 20px;
 }
