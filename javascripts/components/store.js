@@ -1,4 +1,5 @@
 import {printToDom} from "../helpers/util.js"
+
 const addToCartButton = document.getElementById('cart_button');
 
 const book = {
@@ -16,3 +17,12 @@ const bookBuilder = ()=>{
     printToDom(domString, 'bookInfo');
 }
 bookBuilder();
+
+const addToCartButtonEvent = () => {
+    addToCartButton.addEventListener('click', (e)=>{
+        
+    })
+}
+addToCartButtonEvent();
+
+export {book};
