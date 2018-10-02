@@ -17,6 +17,10 @@ const bookBuilder = ()=>{
         domString +=`</div>`;
     printToDom(domString, 'bookInfo');
 }
+  
+const getPrice = () => {
+    return book.price;
+};
 
 const addToCartButtonEvent = () => {
     addToCartButton.addEventListener('click', (e)=>{
@@ -24,4 +28,4 @@ const addToCartButtonEvent = () => {
     })
 }
 
-export {book,bookBuilder,addToCartButtonEvent};
+export {book,bookBuilder,getPrice,addToCartButtonEvent};
